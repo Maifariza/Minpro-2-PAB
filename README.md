@@ -530,3 +530,11 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    Jika pengguna memilih Batal, maka proses logout akan dibatalkan dan pengguna tetap berada di halaman utama aplikasi. Namun jika pengguna memilih Logout, maka pengguna akan keluar dari aplikasi dan diarahkan kembali ke halaman Welcome.
    >
    > <img width="1903" height="943" alt="image" src="https://github.com/user-attachments/assets/ed360f9d-f729-4cc7-a999-c1ba5a2748af" />
+
+
+---
+
+<p align="center">
+💄 MINI PROJECT 2 PAB 💄 <br>
+<em>Organize your beauty. Elevate your glow.</em> ✨
+</p>
