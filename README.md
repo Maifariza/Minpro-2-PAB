@@ -231,45 +231,54 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
 - **Halaman Welcome (_Welcome Screen_)**
 
-  <img width="1903" height="943" alt="image" src="https://github.com/user-attachments/assets/ed360f9d-f729-4cc7-a999-c1ba5a2748af" />
+  <img width="1906" height="944" alt="image" src="https://github.com/user-attachments/assets/dda4d161-b965-496a-b7e5-989248c47b6b" />
+
 
 - **Halaman Login**
 
-  <img width="1903" height="946" alt="image" src="https://github.com/user-attachments/assets/866bb190-1f7a-4a72-ac38-27c53236df4f" />
+  <img width="1906" height="945" alt="image" src="https://github.com/user-attachments/assets/a2f1ae27-8d25-4b6f-861d-ac90f5fec359" />
+
 
 
 - **Halaman Register**
 
-  <img width="1906" height="946" alt="image" src="https://github.com/user-attachments/assets/3790ad6c-3552-4447-bb15-934b3d8e7eba" />
+  <img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/fdc0bc90-57ff-4afa-83e8-82ecdc5d052e" />
+
 
 
 - **Halaman Daftar Produk (Home)**
 
-  <img width="1904" height="946" alt="image" src="https://github.com/user-attachments/assets/599a2c88-416e-47a7-8dd3-4c65e07abbc7" />
+  <img width="1904" height="946" alt="image" src="https://github.com/user-attachments/assets/513c17d3-7233-4464-8145-7c95f32a4d8a" />
+
 
 
 - **Halaman Tambah Produk**
 
-  <img width="1909" height="950" alt="image" src="https://github.com/user-attachments/assets/15b30943-c361-482a-8cf5-ca49a12fc9aa" />
+  <img width="1907" height="946" alt="image" src="https://github.com/user-attachments/assets/e6761a91-e671-4f72-a871-80d530eeb107" />
+
 
   > Tombol Back
   >
-  > <img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/075e2f96-6cc7-4cb7-964d-fe9a6e3adfa0" />
+  > <img width="1912" height="945" alt="image" src="https://github.com/user-attachments/assets/b9a62838-7145-4d46-841a-e8bf6f5e92fa" />
+
 
 
 
 - **Halaman Edit Produk**
 
-  <img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/e6f11ab2-725d-4f5b-8645-e0bc1550c813" />
+  <img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/14563661-6325-4b90-ba02-5c21e18f9bcb" />
+
 
   > Tombol Back
   >
-  > <img width="1907" height="942" alt="image" src="https://github.com/user-attachments/assets/89bc387e-2843-424b-a774-5a8223ae658c" />
+  > <img width="1902" height="944" alt="image" src="https://github.com/user-attachments/assets/4a6b841d-fd15-4092-a485-275d466ec6ba" />
+
 
 
 - **Tampilan Hapus Produk**
 
-  <img width="1908" height="941" alt="image" src="https://github.com/user-attachments/assets/39c7a355-073e-43f7-b6af-66ee6c5c8f9e" />
+  <img width="1902" height="945" alt="image" src="https://github.com/user-attachments/assets/c52a67c9-ecb8-4193-a6e6-e29efdee509f" />
+
 
 
 
@@ -277,36 +286,42 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
   a. Produk berhasil dihapus.
   >
-  > <img width="1903" height="945" alt="image" src="https://github.com/user-attachments/assets/43484e8c-a0aa-4dd1-b29d-ab7ef5845df9" />
+  > <img width="1902" height="945" alt="image" src="https://github.com/user-attachments/assets/e7803848-da30-49bd-8680-1cb0d4413eb3" />
+
 
 
 
   b. Produk berhasil diperbarui.
   >
-  > <img width="1903" height="947" alt="image" src="https://github.com/user-attachments/assets/cc3c5c18-583c-46c6-8746-02a39dcbbe5d" />
+  > <img width="1906" height="946" alt="image" src="https://github.com/user-attachments/assets/a718f164-3b6f-4780-abe3-4b824cdfedeb" />
+
 
 
 
   c. Produk berhasil ditambahkan.
   >
-  > <img width="1905" height="943" alt="image" src="https://github.com/user-attachments/assets/489d5f17-ff38-4095-b4a2-ec80857e2b9d" />
+  > <img width="1902" height="946" alt="image" src="https://github.com/user-attachments/assets/73e54259-6026-4f0a-9bd2-11b93560b562" />
+
 
 
 
 - **Checkbox (produk dicentang)**
 
-  <img width="1907" height="942" alt="image" src="https://github.com/user-attachments/assets/f6bc60ec-6f61-4741-8f9f-0949a958faa5" />
+  <img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/c4c84a86-911a-4e5b-94ef-cee07665603b" />
+
 
 
 
 - **Back**
 
-  <img width="1898" height="943" alt="image" src="https://github.com/user-attachments/assets/757cb2d1-9dae-4475-a84f-25e4f5af4198" />
+  <img width="1906" height="942" alt="image" src="https://github.com/user-attachments/assets/89c866f5-988b-4d4f-956e-c5fcf4e135d9" />
+
 
 
 - **Logout**
 
-  <img width="1907" height="943" alt="image" src="https://github.com/user-attachments/assets/d2ae8e5a-b79e-474f-9308-b24ecf02ed7a" />
+  <img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/be442976-a5af-4026-aa0f-11cb4d7415e4" />
+
 
 ---
 
@@ -412,7 +427,8 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    
    Pada gambar di bawah ini ditampilkan tampilan notifikasi ketika pengguna berhasil melakukan login. Setelah email dan password yang dimasukkan sesuai, aplikasi akan menampilkan dialog Selamat Datang sebagai konfirmasi bahwa proses login berhasil. Pengguna kemudian dapat menekan tombol Masuk GlowUp untuk melanjutkan ke halaman utama aplikasi dan mulai mengelola koleksi produk beauty yang dimiliki.
    >
-   > <img width="1909" height="945" alt="image" src="https://github.com/user-attachments/assets/9fa35570-d6c1-4e6b-b731-bb647af94f0e" />
+   > <img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/2e1fc6a4-6456-4895-884e-e7b3d06a7549" />
+
 
    
 ---
