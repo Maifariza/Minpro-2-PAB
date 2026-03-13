@@ -28,44 +28,52 @@ Aplikasi GlowUp juga dilengkapi dengan fitur pencarian dan filter kategori sehin
 
 Struktur project yang saya gunakan mengikuti struktur standar dari Flutter. Karena itu, di dalam project ini terdapat beberapa folder bawaan seperti android, ios, web, linux, macos, dan windows. Folder-folder ini otomatis dibuat oleh Flutter saat project dibuat dan digunakan untuk mendukung aplikasi agar bisa dijalankan di berbagai platform. Pada bagian ini saya tidak melakukan perubahan khusus karena lebih berfungsi untuk konfigurasi sistem.
 
-<img width="202" height="456" alt="image" src="https://github.com/user-attachments/assets/ac920830-7539-48fa-947e-8736f6738e8c" />
+<img width="205" height="536" alt="image" src="https://github.com/user-attachments/assets/c6777429-40fb-432a-a97b-2757bdc44703" />
+
 
 
 Pada project ini, sebagian besar kode yang saya kerjakan terdapat di dalam folder minpro2_mobile. Folder ini berisi struktur project Flutter utama yang saya gunakan untuk mengembangkan aplikasi GlowUp.
 
-<img width="328" height="789" alt="image" src="https://github.com/user-attachments/assets/e650f31c-bd4e-4fd2-98fa-5f9bef57c87c" />
+<img width="193" height="643" alt="image" src="https://github.com/user-attachments/assets/4080c89d-9038-457f-97bb-d42f522d7737" />
+
 
 
 
 Di dalam folder tersebut terdapat folder lib yang menjadi bagian paling penting, karena di sinilah seluruh kode utama aplikasi ditulis. File main.dart menjadi kode awal ketika aplikasi dijalankan. Dari file ini saya mengatur bagaimana aplikasi dimulai serta halaman pertama yang akan ditampilkan.
 
-<img width="295" height="224" alt="image" src="https://github.com/user-attachments/assets/5315aaab-96cb-44bc-ae9f-5e294d83a80d" />
+<img width="183" height="224" alt="image" src="https://github.com/user-attachments/assets/1a7597f6-be36-40f0-beea-1aa5e2c8cb42" />
+
 
 > Folder models yang saya gunakan untuk menyimpan model data aplikasi. Di dalamnya terdapat file product.dart yang berisi struktur data produk kosmetik yang digunakan dalam aplikasi, seperti nama produk, kategori, harga, serta status checkbox untuk menandai apakah produk sudah dipilih atau belum.
 >
-> <img width="254" height="50" alt="image" src="https://github.com/user-attachments/assets/2c423ea1-caa7-40b0-8cf0-6da4d844eeee" />
+> <img width="188" height="54" alt="image" src="https://github.com/user-attachments/assets/67ade51c-2b09-41e5-a871-b248201832ec" />
+
 
 > Selain itu terdapat folder pages yang berisi halaman-halaman utama dalam aplikasi. Di dalam folder ini terdapat beberapa file seperti *welcome_page.dart*, *login_page.dart*, *register_page.dart*, *home_page.dart*, dan *form_page.dart*. File *welcome_page.dart* digunakan untuk menampilkan halaman awal ketika aplikasi pertama kali dibuka. Selanjutnya terdapat *login_page.dart* dan *register_page.dart* yang digunakan untuk proses login serta pendaftaran akun pengguna. Kemudian terdapat *home_page.dart* yang merupakan halaman utama dalam aplikasi, di mana halaman ini menampilkan daftar produk kosmetik yang dimiliki pengguna. Pada halaman ini pengguna juga dapat melihat daftar produk yang tersimpan, melakukan pencarian produk, serta menandai produk menggunakan checkbox. Sedangkan *form_page.dart* digunakan untuk menambahkan produk baru ataupun mengedit data produk yang sudah ada sebelumnya.
 >
-> <img width="246" height="152" alt="image" src="https://github.com/user-attachments/assets/54b8fb1c-9f32-49f6-9cb2-caaa6d4ff705" />
+> <img width="167" height="138" alt="image" src="https://github.com/user-attachments/assets/6c2a236c-a987-4fca-9b77-48c82eed8e6a" />
+
 
 > File **main.dart** merupakan file utama dalam aplikasi Flutter yang dijalankan pertama kali. Pada file ini saya mengatur konfigurasi awal aplikasi, seperti menghubungkan aplikasi dengan Supabase serta mengatur navigasi ke halaman welcome, login, register, dan home.
 >
-> <img width="146" height="31" alt="image" src="https://github.com/user-attachments/assets/b8e63438-3715-4c25-9a20-a8c482805b58" />
+> <img width="184" height="30" alt="image" src="https://github.com/user-attachments/assets/1c71a1fd-f010-48c0-90e8-e39a421284eb" />
+
 
 
 Selain folder kode program, terdapat juga folder assets yang digunakan untuk menyimpan berbagai file tambahan yang digunakan dalam tampilan aplikasi. Di dalam folder ini terdapat folder *fonts* yang berisi font seperti *CloudLucent* dan *PlayfairDisplay* yang digunakan untuk mempercantik tampilan teks agar sesuai dengan tema aplikasi GlowUp. Selain itu terdapat folder *images* yang berisi gambar-gambar yang saya gunakan dalam aplikasi, seperti gambar pada halaman welcome serta gambar background yang digunakan pada beberapa halaman aplikasi.
 >
-> <img width="238" height="180" alt="image" src="https://github.com/user-attachments/assets/66132da9-5b54-48b8-b6a8-28a0e4eb2190" />
+> <img width="273" height="180" alt="image" src="https://github.com/user-attachments/assets/946e2bef-1347-4bdd-a3fb-4f5e09998441" />
+
 
 Selanjutnya terdapat file **pubspec.yaml** yang digunakan untuk mengatur dependency atau library yang digunakan dalam project Flutter. Pada file ini juga didaftarkan berbagai assets seperti font dan gambar agar dapat digunakan di dalam aplikasi.
 >
-> <img width="176" height="25" alt="image" src="https://github.com/user-attachments/assets/c6f2affd-aced-4fa7-a5b9-d7e81f876f67" />
+> <img width="173" height="29" alt="image" src="https://github.com/user-attachments/assets/46993fef-158a-43d1-a791-c0e32caee651" />
+
 
 
 Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi penting seperti URL dan API Key Supabase saya simpan menggunakan file .env. Hal ini bertujuan untuk menjaga keamanan data sensitif agar tidak langsung dituliskan di dalam source code.
 >
-> <img width="145" height="29" alt="Screenshot 2026-03-12 091347" src="https://github.com/user-attachments/assets/ddfcacb0-e08e-4996-8383-95a79c4c8cea" />
+> <img width="165" height="29" alt="image" src="https://github.com/user-attachments/assets/0a4fb22e-1f1e-4199-85f2-8fead42ebbb2" />
 
 
 ---
