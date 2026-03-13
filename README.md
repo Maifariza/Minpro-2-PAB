@@ -332,19 +332,22 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    a. Validasi Email
    > Email yang digunakan harus menggunakan domain @gmail.com.
    > 
-   > <img width="459" height="88" alt="image" src="https://github.com/user-attachments/assets/bf808c70-2bad-4cbf-a0c0-bf359daefc22" />
+   > <img width="454" height="101" alt="image" src="https://github.com/user-attachments/assets/ebe90c21-deed-4b40-83f3-72e32eea4bbc" />
+
 
    
    b. Validasi Password
    > Password minimal harus terdiri dari 8 karakter.
    > 
-   > <img width="452" height="89" alt="image" src="https://github.com/user-attachments/assets/2cd7ca5c-8f38-4d22-a090-1e4c4c252969" />
+   > <img width="450" height="89" alt="image" src="https://github.com/user-attachments/assets/8ac5a1f2-e9bb-4fba-9c04-13cd30901b05" />
+
 
    
    c. Validasi Password
    > Email atau password yang dimasukkan tidak sesuai dengan data yang tersimpan di sistem
    > 
-   > <img width="462" height="196" alt="image" src="https://github.com/user-attachments/assets/703fde2f-8a32-43d9-9ce7-9e33a06befaf" />
+   > <img width="455" height="185" alt="image" src="https://github.com/user-attachments/assets/d1204f7b-394a-4733-ab43-7856b7cff3f3" />
+
 
    
 
@@ -353,19 +356,20 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    a. Validasi Email
    > Email yang digunakan harus menggunakan domain @gmail.com.
    > 
-   > <img width="455" height="93" alt="image" src="https://github.com/user-attachments/assets/08bafbdf-9133-47e3-b77b-d6911d2dbb35" />
+   > <img width="454" height="101" alt="image" src="https://github.com/user-attachments/assets/ebe90c21-deed-4b40-83f3-72e32eea4bbc" />
 
    
    b. Validasi Password
    > Password minimal harus terdiri dari 8 karakter.
    > 
-   > <img width="460" height="82" alt="image" src="https://github.com/user-attachments/assets/45d0985c-904e-4d87-bf58-e401ec23eb92" />
+   > <img width="450" height="89" alt="image" src="https://github.com/user-attachments/assets/8ac5a1f2-e9bb-4fba-9c04-13cd30901b05" />
 
    
    c. Validasi Konfirmasi Password
    > Password dan konfirmasi password harus sama sebelum akun dapat dibuat.
    > 
-   > <img width="460" height="251" alt="image" src="https://github.com/user-attachments/assets/b4f05bcd-7c3c-47da-b8c1-cc46c785da95" />
+   > <img width="471" height="247" alt="image" src="https://github.com/user-attachments/assets/46a2ba26-ea31-491a-8dfe-5f75e470fe9d" />
+
 
 
    
@@ -374,27 +378,32 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    a. Validasi Kolom Kosong
    > Jika ada kolom yang belum diisi, aplikasi akan menampilkan pesan:
    >
-   > <img width="555" height="263" alt="image" src="https://github.com/user-attachments/assets/63580d80-d2b2-4002-8411-b536ee1ca6db" />
+   > <img width="566" height="257" alt="image" src="https://github.com/user-attachments/assets/d10cdab4-b9da-4e5e-8606-2e60a3332f78" />
+
 
    b. Validasi Nama Produk
    > Nama produk hanya boleh berisi huruf. Jika tidak sesuai maka muncul pesan:
    >
-   > <img width="562" height="246" alt="image" src="https://github.com/user-attachments/assets/08c2c03b-a144-4d9f-a782-0510d1a3043b" />
+   > <img width="559" height="94" alt="image" src="https://github.com/user-attachments/assets/524f427e-3ac8-4ced-960a-1c791769106e" />
+
 
    c. Validasi Kategori Produk
    > Kategori produk juga hanya boleh berisi huruf.
    >
-   > <img width="564" height="252" alt="image" src="https://github.com/user-attachments/assets/555bf4bf-9dc2-4c02-a50e-6aea6412a77b" />
+   > <img width="563" height="93" alt="image" src="https://github.com/user-attachments/assets/4780e266-f009-4184-abd3-178662ac7b4f" />
+
 
    d. Validasi Harga Produk
    > Harga produk hanya boleh berupa angka.
    >
-   > <img width="561" height="246" alt="image" src="https://github.com/user-attachments/assets/8c8cab60-0fc5-4084-8e2f-419d077f3aee" />
+   > <img width="559" height="97" alt="image" src="https://github.com/user-attachments/assets/b5c585f9-aa6e-4c70-8275-980bbbc6379c" />
+
 
    e. Validasi Tidak Ada Perubahan
    > Jika pengguna menekan tombol simpan tanpa mengubah data apa pun saat edit produk, maka aplikasi akan menampilkan pesan:
    >
-   > <img width="443" height="40" alt="image" src="https://github.com/user-attachments/assets/5c23b2ed-5c9d-435d-86c5-be5c26d8580f" />
+   > <img width="1908" height="947" alt="image" src="https://github.com/user-attachments/assets/466f4ac9-8140-465a-8342-06b7eecf5942" />
+
 
 
 ---
