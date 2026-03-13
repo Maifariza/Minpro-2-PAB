@@ -582,11 +582,14 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
 7. Selanjutnya pengguna bisa keluar aplikasi dengan menekan ikon logout yang terdapat di bagian kanan atas halaman utama.
    >
-   > <img width="1599" height="783" alt="image" src="https://github.com/user-attachments/assets/71b9575f-afa8-425b-b740-43af1816edfd" />
-   
+   > ![WhatsApp Image 2026-03-13 at 11 47 49](https://github.com/user-attachments/assets/0c6f6764-f0cb-4e88-98e6-25ec3f320bfc)
+
+
+
    Setelah ikon tersebut ditekan, aplikasi akan menampilkan dialog konfirmasi logout. logout yang terdapat di bagian kanan atas halaman utama. Setelah ikon tersebut ditekan, aplikasi akan menampilkan dialog konfirmasi logout.
    >
-   >  <img width="1908" height="944" alt="image" src="https://github.com/user-attachments/assets/b5fd0907-49c8-4b8a-9c07-d48a424284f5" />
+   >  <img width="1909" height="943" alt="image" src="https://github.com/user-attachments/assets/d4809e07-7b9d-4251-b366-8d842ccf05ab" />
+
 
    Jika pengguna memilih Batal, maka proses logout akan dibatalkan dan pengguna tetap berada di halaman utama aplikasi. Namun jika pengguna memilih Logout, maka pengguna akan keluar dari aplikasi dan diarahkan kembali ke halaman Welcome.
    >
