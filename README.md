@@ -370,10 +370,14 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
    > 
    > <img width="471" height="247" alt="image" src="https://github.com/user-attachments/assets/46a2ba26-ea31-491a-8dfe-5f75e470fe9d" />
 
+   d. Register dengan Email yang sudah terdaftar
+   > Jika pengguna register dengan akun Email yang sudah terdaftar.
+   >
+   > <img width="1909" height="948" alt="image" src="https://github.com/user-attachments/assets/59424db9-faa2-49f7-8af9-04a46ecf0d27" />
 
 
    
-3. Halaman Form Produk (Tambah / Edit Produk)
+4. Halaman Form Produk (Tambah / Edit Produk)
 
    a. Validasi Kolom Kosong
    > Jika ada kolom yang belum diisi, aplikasi akan menampilkan pesan:
@@ -412,27 +416,29 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
 1. Saat aplikasi GlowUp pertama kali dijalankan, pengguna akan diarahkan ke halaman Welcome. Pada halaman ini ditampilkan tampilan pembuka aplikasi yang berisi judul aplikasi, tagline, serta tombol Start. Tombol tersebut digunakan oleh pengguna untuk melanjutkan ke halaman berikutnya.
    >
-   > <img width="1903" height="943" alt="image" src="https://github.com/user-attachments/assets/ed360f9d-f729-4cc7-a999-c1ba5a2748af" />
+   > <img width="1906" height="944" alt="image" src="https://github.com/user-attachments/assets/dda4d161-b965-496a-b7e5-989248c47b6b" />
 
 ---
 
 
 2. Setelah menekan tombol Start, pengguna akan diarahkan ke halaman Login. Nah di halaman ini pengguna diminta untuk memasukkan email dan password agar dapat masuk ke dalam aplikasi.
    >
-   > <img width="1903" height="946" alt="image" src="https://github.com/user-attachments/assets/866bb190-1f7a-4a72-ac38-27c53236df4f" />
+   > <img width="1906" height="945" alt="image" src="https://github.com/user-attachments/assets/a2f1ae27-8d25-4b6f-861d-ac90f5fec359" />
    
    Pada contoh di bawah ini, saya mencoba memasukkan email zahra@yahoo.com dan password yang kurang dari 8 karakter. Karena email yang dimasukkan tidak menggunakan domain @gmail.com serta password belum memenuhi minimal 8 karakter, maka aplikasi menampilkan pesan validasi bahwa email harus menggunakan @gmail.com dan password harus memiliki minimal 8 karakter.
    >
-   > <img width="1905" height="947" alt="image" src="https://github.com/user-attachments/assets/9afe8957-3729-4cf7-8b79-4e4d29720189" />
+   > <img width="1909" height="945" alt="image" src="https://github.com/user-attachments/assets/d21e1d0b-7249-49a5-a5d7-bb54985794d3" />
+
 
 
    Jika belum memiliki akun, pengguna dapat memilih menu Register yang tersedia pada halaman Login. Menu tersebut akan mengarahkan pengguna ke halaman pendaftaran akun. Pada halaman Register, pengguna dapat membuat akun baru dengan mengisi email, password, dan confirm password. Pada halaman ini terdapat beberapa validasi input untuk memastikan data yang dimasukkan sesuai. Email harus menggunakan domain @gmail.com, password harus memiliki minimal 8 karakter, dan kolom confirm password harus sama dengan password yang telah dimasukkan. Jika data yang diisi tidak sesuai, maka aplikasi akan menampilkan pesan kesalahan pada kolom input seperti pada gambar di bawah ini.
    >
-   > <img width="1906" height="947" alt="image" src="https://github.com/user-attachments/assets/405e46bd-8d28-4476-b851-f1fb75920a17" />
+   > <img width="1908" height="949" alt="image" src="https://github.com/user-attachments/assets/e2cdfbd9-bcc7-4dda-a23d-09b4801e99f7" />
+
    
    Saya mencoba melakukan pendaftaran menggunakan email yang sudah pernah terdaftar sebelumnya. Karena akun dengan email tersebut sudah ada di sistem, maka proses pendaftaran tidak dapat dilakukan. Aplikasi kemudian menampilkan notifikasi di bagian bawah layar yang menyatakan bahwa email sudah terdaftar dan pengguna diminta untuk melakukan login saja. Hal ini bertujuan untuk mencegah pembuatan akun dengan email yang sama lebih dari satu kali.
    >
-   > <img width="1909" height="946" alt="image" src="https://github.com/user-attachments/assets/28f51980-3417-4b46-9e8a-beb97355b556" />
+   > <img width="1909" height="948" alt="image" src="https://github.com/user-attachments/assets/59424db9-faa2-49f7-8af9-04a46ecf0d27" />
    
    Pada gambar di bawah ini ditampilkan tampilan notifikasi ketika pengguna berhasil melakukan login. Setelah email dan password yang dimasukkan sesuai, aplikasi akan menampilkan dialog Selamat Datang sebagai konfirmasi bahwa proses login berhasil. Pengguna kemudian dapat menekan tombol Masuk GlowUp untuk melanjutkan ke halaman utama aplikasi dan mulai mengelola koleksi produk beauty yang dimiliki.
    >
@@ -446,109 +452,131 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
    Di sini juga terdapat fitur checkbox pada setiap produk yang dapat digunakan untuk menandai produk yang dipilih oleh pengguna. Ketika checkbox dicentang, maka produk tersebut akan dianggap sebagai produk yang telah dipilih. Tampilan produk juga akan berubah menjadi berwarna pink sebagai indikator visual bahwa produk tersebut sudah dipilih.
    >
-   > <img width="1904" height="946" alt="image" src="https://github.com/user-attachments/assets/599a2c88-416e-47a7-8dd3-4c65e07abbc7" />
+   > <img width="1907" height="946" alt="image" src="https://github.com/user-attachments/assets/b780ecc4-69ca-4efa-91eb-50173e101fad" />
+
 
    Pada bagian atas halaman utama terdapat progress bar yang menunjukkan jumlah produk yang telah dipilih dibandingkan dengan total produk yang tersedia. Progress bar ini membantu pengguna melihat perkembangan koleksi produk yang sudah ditandai. Jumlah produk yang telah dicentang akan mempengaruhi progress bar yang terdapat di bagian atas halaman. Progress bar ini menunjukkan perbandingan antara jumlah produk yang dipilih dengan total produk yang tersedia, sehingga pengguna dapat melihat perkembangan koleksi produk yang sudah dipilih dengan lebih mudah.
    >
-   > <img width="1913" height="250" alt="image" src="https://github.com/user-attachments/assets/b0d78788-5246-481d-8dd3-2d099e93fefc" />
+   > <img width="1912" height="254" alt="image" src="https://github.com/user-attachments/assets/35854c3a-60a9-45f0-ad62-014a81f50d4e" />
+
 
    Pada halaman utama juga terdapat fitur pencarian produk yang dapat digunakan untuk membantu pengguna menemukan produk tertentu dengan lebih cepat. Pengguna dapat mengetikkan nama produk pada kolom pencarian yang tersedia di bagian atas daftar produk. Setelah kata kunci dimasukkan, aplikasi akan secara otomatis menampilkan produk yang sesuai dengan kata kunci tersebut. Disini saya mencoba mencari Sunscreen dan terlihat di bawah sudah ada.
    >
-   > <img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/f6f7a814-511a-465f-be77-d8a22ab323c8" />
+   > <img width="1908" height="944" alt="image" src="https://github.com/user-attachments/assets/93c37531-c72e-4a8f-9f6c-3d002f31ff48" />
+
 
    Jika produk yang dicari tidak ditemukan, maka aplikasi akan menampilkan tampilan informasi di bagian tengah layar dengan pesan “Produk tidak ditemukan”. Pada tampilan ini juga terdapat tombol Reset Pencarian yang dapat digunakan untuk menghapus kata kunci pencarian sehingga daftar produk dapat ditampilkan kembali seperti semula.
    >
-   > <img width="1906" height="946" alt="image" src="https://github.com/user-attachments/assets/6bae3d34-297d-448a-9ebe-7aa010904fbc" />
+   > <img width="1908" height="943" alt="image" src="https://github.com/user-attachments/assets/2da9f7a3-3df8-4882-ab81-2810f84032d2" />
+
 
    Selain fitur pencarian, aplikasi juga menyediakan fitur filter kategori yang membantu pengguna melihat produk berdasarkan jenisnya. Filter kategori ditampilkan dalam bentuk beberapa tombol seperti All, Skincare, Makeup, Parfum, Bodycare, dan Haircare. Disini saya menggunakan filter untuk melihat barang-barang dengan kategori Makeup.
    >
-   > <img width="1905" height="943" alt="image" src="https://github.com/user-attachments/assets/1997cc9e-f308-4d86-b79a-593bf88a7b8d" />
+   > <img width="1905" height="948" alt="image" src="https://github.com/user-attachments/assets/aa4598b2-bc80-4c88-b67e-898a257b7065" />
+
 
 ---
 
 4. Kita juga bisa menambahkan data produk baru melalui tombol tambah (+) yang terdapat di bagian kanan bawah halaman. Ketika tombol tersebut ditekan, pengguna akan diarahkan ke halaman form tambah produk.
    >
-   > <img width="1600" height="791" alt="image" src="https://github.com/user-attachments/assets/b9945867-4bd3-4dcb-b687-30ac6a64dc84" />
+   > <img width="1599" height="796" alt="image" src="https://github.com/user-attachments/assets/b55c0067-efd8-4ac7-976e-d19a2aee4295" />
+
 
    Pada halaman ini pengguna diminta untuk mengisi beberapa informasi seperti nama produk, kategori, dan harga. Setelah semua data diisi dengan benar, pengguna dapat menekan tombol Tambah untuk menyimpan produk ke dalam daftar. 
    >
-   > <img width="1904" height="944" alt="image" src="https://github.com/user-attachments/assets/0bc673d4-9fe5-42f8-8522-73fe4e36edb9" />
+   > <img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/8512a80e-1538-41ac-b079-891e1b9b0022" />
+
    
    Produk yang berhasil ditambahkan akan langsung muncul notifikasi bahwa produk sudah berhasil ditambahkan dan ada muncul di daftar produk.
    >
-   > <img width="1905" height="943" alt="image" src="https://github.com/user-attachments/assets/489d5f17-ff38-4095-b4a2-ec80857e2b9d" />
+   > <img width="1907" height="947" alt="image" src="https://github.com/user-attachments/assets/71708209-f4dc-457a-b7f3-7c262b9d73bf" />
+
    
-   Pada gambar di bawah terlihat bahwa produk Face Wash yang kita tambahkan tadi akan muncul secara otomatis di tabel products pada Supabase. Data tersebut tersimpan secara dinamis di database sehingga setiap produk yang ditambahkan dari aplikasi akan langsung tercatat di Supabase beserta informasi seperti nama produk, kategori, harga, dan status checkbox.
+   Pada gambar di bawah terlihat bahwa produk Serum Bulu Mata yang kita tambahkan tadi akan muncul secara otomatis di tabel products pada Supabase. Data tersebut tersimpan secara dinamis di database sehingga setiap produk yang ditambahkan dari aplikasi akan langsung tercatat di Supabase beserta informasi seperti nama produk, kategori, harga, dan status checkbox.
    >
-   > <img width="1275" height="107" alt="image" src="https://github.com/user-attachments/assets/b49d50cd-b230-460a-bd7e-f8077146b032" />
+   > <img width="1275" height="774" alt="image" src="https://github.com/user-attachments/assets/6c9f2080-029f-4969-8e74-5bf0cf8904c3" />
+
    
    **Validasi Input Halaman Tambah Produk**
    
    Nah gambar dibawah ini ada validasi input pada halaman Tambah Produk. Jika pengguna memasukkan data yang tidak sesuai, maka aplikasi akan menampilkan pesan kesalahan pada kolom input. Pada contoh tersebut, pengguna memasukkan angka pada kolom nama produk dan kategori, sehingga muncul pesan bahwa nama produk dan kategori harus berupa huruf. Selain itu, pada kolom harga pengguna memasukkan teks yang bukan angka, sehingga aplikasi menampilkan pesan bahwa harga harus berupa angka.
    >
-   > <img width="1909" height="943" alt="image" src="https://github.com/user-attachments/assets/53aa4992-ac25-497e-97fb-a767b650ccd6" />
+   > <img width="1907" height="945" alt="image" src="https://github.com/user-attachments/assets/1310ce67-5cbe-46ac-b90d-982b7bd8fc60" />
+
 
    Di sini kolom harus diisi oleh pengguna. Jika pengguna mencoba menambahkan produk tanpa mengisi data pada kolom yang tersedia, maka aplikasi akan menampilkan pesan “Oops.. Kolom tidak boleh kosong.”.
    >
-   > <img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/7139ca11-7ba9-4f3a-bfbc-387565333b39" />
+   > <img width="1908" height="945" alt="image" src="https://github.com/user-attachments/assets/12bf14af-82dc-4e42-995f-04fefdb613ba" />
+
 
 
 ---
 
 5. Pengguna juga bisa mengedit data produk yang sudah ada. Fitur ini dapat digunakan dengan menekan ikon edit (pensil) yang terdapat pada setiap produk di halaman utama. Setelah tombol tersebut ditekan, pengguna akan diarahkan ke halaman Edit Produk.
    >
-   > <img width="1599" height="786" alt="image" src="https://github.com/user-attachments/assets/e164e75d-b863-4933-9c37-fced9c61bbcb" />
+   > ![WhatsApp Image 2026-03-13 at 11 38 52](https://github.com/user-attachments/assets/dd4471f4-185c-42f8-82fa-b6cb68d69f89)
+
 
    Pada halaman ini, data produk yang sebelumnya sudah tersimpan seperti nama produk, kategori, dan harga akan otomatis muncul pada kolom input. Pengguna dapat mengubah data tersebut sesuai kebutuhan, kemudian menekan tombol Simpan untuk memperbarui data produk.
    >
-   > <img width="1905" height="945" alt="image" src="https://github.com/user-attachments/assets/42a3161d-fdb2-4c59-9014-64ac832b3996" />
+   > <img width="1908" height="942" alt="image" src="https://github.com/user-attachments/assets/229355d4-71fb-4503-ac4b-602163682376" />
 
 
    Pada gambar di bawah ini saya mengubah harga produk Face Wash yang sebelumnya Rp 75.000 menjadi Rp 90.000. Setelah perubahan dilakukan, pengguna dapat menekan tombol Simpan untuk memperbarui data produk. 
    >
-   > <img width="1908" height="943" alt="image" src="https://github.com/user-attachments/assets/b97e5e3c-e06c-4366-9951-6210195d2dd9" />
+   > <img width="1906" height="944" alt="image" src="https://github.com/user-attachments/assets/2af9cdba-dc43-4406-b3f6-06b4919ca821" />
+
    
    Produk yang berhasil diperbarui akan langsung muncul notifikasi bahwa produk sudah berhasil diperbarui dan langsung teubah di daftar produk.
    >
-   > <img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/39e18953-ed9e-4020-ba83-da01e157b51a" />
+   > <img width="1911" height="945" alt="image" src="https://github.com/user-attachments/assets/c76bbab0-f6fe-4154-aea9-fcb2b74710ec" />
+
 
    
-   Setelah produk diedit pada aplikasi, data tersebut juga langsung diperbarui di database Supabase. Pada gambar di atas terlihat bahwa harga Face Wash sudah berubah menjadi 90.000, sesuai dengan perubahan yang dilakukan pada aplikasi.
+   Setelah produk diedit pada aplikasi, data tersebut juga langsung diperbarui di database Supabase. Pada gambar di atas yang sudah saya tandai terlihat bahwa harga Face Wash sudah berubah menjadi 90.000, sesuai dengan perubahan yang dilakukan pada aplikasi.
    >
-   > <img width="992" height="67" alt="Screenshot 2026-03-11 150627" src="https://github.com/user-attachments/assets/79968006-ab7f-4c15-83fc-880dfbb10c4d" />
+   > <img width="1290" height="774" alt="image" src="https://github.com/user-attachments/assets/ce6dfc0a-ba56-40cf-9532-08d81683ffb0" />
+
 
    **Validasi Input**
    
    Pada gambar ini, pengguna membuka halaman Edit Produk tetapi tidak melakukan perubahan pada data yang sudah ada. Ketika tombol Simpan ditekan tanpa mengubah data, aplikasi akan menampilkan notifikasi di bagian bawah layar yang menunjukkan bahwa tidak ada perubahan pada produk. Hal ini memberi tahu pengguna bahwa data yang disimpan masih sama sehingga tidak perlu diperbarui di database.
    >
-   > <img width="1907" height="950" alt="Screenshot 2026-03-11 160102" src="https://github.com/user-attachments/assets/fd0284ce-3fd2-47d0-bc66-5e0675bc2749" />
+   > <img width="1909" height="943" alt="image" src="https://github.com/user-attachments/assets/b5833ad1-24d0-4264-8114-bc359b8bd3a8" />
+
    
    Terlihat bahwa semua kolom pada halaman Edit Produk dikosongkan. Ketika pengguna menekan tombol Simpan, aplikasi akan menampilkan pesan “Oops.. Kolom tidak boleh kosong.”. Pesan ini merupakan bagian dari validasi input yang bertujuan untuk memastikan bahwa semua data produk harus diisi terlebih dahulu sebelum dapat disimpan. Dengan adanya validasi ini, aplikasi dapat mencegah penyimpanan data yang tidak lengkap ke dalam database.
    >
-   > <img width="1906" height="941" alt="Screenshot 2026-03-11 160217" src="https://github.com/user-attachments/assets/53aa7c10-3a9a-41b2-b178-fa1b30313944" />
+   > <<img width="1907" height="944" alt="image" src="https://github.com/user-attachments/assets/ddc2b04e-30e9-4da4-bbac-d5d1ff4b093f" />
+
    
    Pada gambar ini terlihat bahwa pengguna memasukkan data yang tidak sesuai dengan format yang ditentukan. Pada kolom Nama Produk dan Kategori, pengguna mengisi dengan angka, padahal kedua kolom tersebut hanya boleh diisi dengan huruf. Oleh karena itu, aplikasi menampilkan pesan kesalahan “Nama produk harus berupa huruf” dan “Kategori harus berupa huruf” di bawah kolom input. Selain itu, pada kolom Harga pengguna memasukkan teks, padahal kolom harga hanya boleh diisi dengan angka. Karena itu aplikasi menampilkan pesan “Harga harus berupa angka.”. Validasi ini bertujuan untuk memastikan bahwa data yang dimasukkan pengguna sesuai dengan format yang benar sebelum data disimpan ke dalam database.
    >
-   > <img width="1904" height="943" alt="image" src="https://github.com/user-attachments/assets/389b93b3-608a-4bd7-bfd2-24543305e968" />
+   > <img width="1905" height="946" alt="image" src="https://github.com/user-attachments/assets/a5590758-94ba-47ca-be92-09a25f27f992" />
+
 
 
 ---
 
 6. Pada tampilan ini, pengguna dapat menghapus produk dengan menekan ikon tempat sampah yang terdapat di sisi kanan setiap produk.
    >
-   > <img width="1599" height="786" alt="image" src="https://github.com/user-attachments/assets/53c1c780-5eee-404c-8cf3-cad53930b8f9" />
+   > ![WhatsApp Image 2026-03-13 at 11 43 48](https://github.com/user-attachments/assets/c7860d6d-1e45-48e4-80cb-4bed4c4b890f)
+
 
    Setelah ikon tersebut ditekan, aplikasi akan menampilkan dialog konfirmasi yang menanyakan apakah pengguna benar-benar ingin menghapus produk tersebut. Jika pengguna memilih Batal, maka proses penghapusan akan dibatalkan dan data produk tetap tersimpan. Namun jika pengguna memilih Hapus, maka produk akan dihapus dari daftar produk yang ada di aplikasi.
    >
-   > <img width="1906" height="936" alt="image" src="https://github.com/user-attachments/assets/9e880219-4734-4924-9ba7-65f10ad558f8" />
+   > <<img width="1905" height="948" alt="image" src="https://github.com/user-attachments/assets/71f6899e-235d-4215-9abd-4d1aecaeddef" />
+
 
    Setelah produk berhasil dihapus, aplikasi akan menampilkan notifikasi “Produk berhasil dihapus.” di bagian bawah layar sebagai tanda bahwa proses penghapusan telah berhasil dilakukan.
    >
-   > <img width="1907" height="944" alt="image" src="https://github.com/user-attachments/assets/c1419f0b-04d1-43f9-be83-1e77a420ecc6" />
+   > <img width="1906" height="941" alt="image" src="https://github.com/user-attachments/assets/aa62bafc-7ebd-41ca-a36f-6eeb63a99607" />
 
-   Setelah produk dihapus dari aplikasi, data tersebut juga akan langsung terhapus dari database Supabase. Hal ini menunjukkan bahwa aplikasi terhubung secara langsung dengan database sehingga setiap perubahan data, seperti menambah, mengedit, maupun menghapus produk, akan otomatis diperbarui pada database.
+
+   Setelah produk dihapus dari aplikasi, data tersebut juga akan langsung terhapus dari database Supabase. Sudah terlihat Face Wash tadi sudah hilang dari daftar produk di Supabase. Hal ini menunjukkan bahwa aplikasi terhubung secara langsung dengan database sehingga setiap perubahan data, seperti menambah, mengedit, maupun menghapus produk, akan otomatis diperbarui pada database.
    >
-   > <img width="1295" height="715" alt="image" src="https://github.com/user-attachments/assets/f92134c4-8d0c-4f41-9d71-3d49de55af19" />
+   > <img width="1249" height="775" alt="image" src="https://github.com/user-attachments/assets/8c18e5be-b1fd-4cd4-9a58-315fa65e2d60" />
+
 
 ---
 
@@ -562,8 +590,7 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
    Jika pengguna memilih Batal, maka proses logout akan dibatalkan dan pengguna tetap berada di halaman utama aplikasi. Namun jika pengguna memilih Logout, maka pengguna akan keluar dari aplikasi dan diarahkan kembali ke halaman Welcome.
    >
-   > <img width="1903" height="943" alt="image" src="https://github.com/user-attachments/assets/ed360f9d-f729-4cc7-a999-c1ba5a2748af" />
-
+   > <img width="1906" height="944" alt="image" src="https://github.com/user-attachments/assets/dda4d161-b965-496a-b7e5-989248c47b6b" />
 
 ---
 
