@@ -308,7 +308,10 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 - **Checkbox (produk dicentang)**
 
   <img width="1911" height="946" alt="image" src="https://github.com/user-attachments/assets/c4c84a86-911a-4e5b-94ef-cee07665603b" />
+  
 
+- **Filter Produk**
+  <img width="1908" height="944" alt="image" src="https://github.com/user-attachments/assets/fa6a7a00-3a67-4c88-b8f8-6e22c8fcf5e2" />
 
 
 
