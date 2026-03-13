@@ -346,7 +346,7 @@ Karena saya menerapkan nilai tambah dalam pengembangan aplikasi, konfigurasi pen
 
 
    
-   c. Validasi Password
+   c. Validasi Email dan Password Harus Terdaftar
    > Email atau password yang dimasukkan tidak sesuai dengan data yang tersimpan di sistem
    > 
    > <img width="455" height="185" alt="image" src="https://github.com/user-attachments/assets/d1204f7b-394a-4733-ab43-7856b7cff3f3" />
